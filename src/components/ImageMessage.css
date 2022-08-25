@@ -1,0 +1,36 @@
+.message {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px;
+  overflow: hidden;
+}
+.userPic > img {
+  width: 55px;
+  height: 55px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-right: 6px;
+}
+
+.messageArea {
+  display: block;
+}
+.message-info > h4 {
+  margin: 0;
+}
+.message-info > span {
+  margin: 0;
+}
+.postArea {
+  display: flex;
+  align-items: flex-start;
+}
+
+.postArea > img {
+  max-width: 250px;
+  max-height: 100px;
+  padding: 5px;
+  border-radius: 12px;
+  overflow: hidden;
+}

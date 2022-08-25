@@ -1,38 +1,35 @@
 .App {
-  text-align: center;
+  overflow: hidden;
+}
+.navbar{
+  display: block;
+}
+.mainOfMain{
+  display: block;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app_body{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100vh;
+  overflow: hidden;
+}
+.welcomePage{
+  margin-top: 45px;
+}
+.welcomePage>h1{
+  font-size: 35px;
+  padding-left: 10px;
+} 
+.welcomePage>h4{
+  font: optional; 
+  font-size: 20px;
+  font-weight: 400;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-left: 10px;
+}
+.welcomePage>img{
+  overflow: hidden;
+  object-fit: cover;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

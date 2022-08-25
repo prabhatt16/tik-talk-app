@@ -1,0 +1,33 @@
+.messageText {
+  display: flex;
+  justify-content: flex-start;
+align-items: center;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.messageText > img {
+  width: 55px;
+  height: 55px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.message_info {
+  padding: 5px;
+  overflow: hidden;
+  align-items: flex-start;
+}
+.message_info > h4 {
+  font-weight: 700;
+  text-align: start;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.message_info > p {
+  font-size: 18px;
+  margin-top: -20px;
+}
+.timestamp {
+  color: grey;
+  font-weight: 300;
+  font-size: 12px;
+}
