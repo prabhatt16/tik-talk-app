@@ -1,14 +1,14 @@
 import React, { useEffect } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import GoogleSignIn from "./screens/GoogleSignIn";
+import GoogleSignIn from "./components/GoogleSignIn";
 import Header from "./components/Header";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { auth, db } from "./firebase";
 import Sidebar from "./components/Sidebar";
 import Chat from "./screens/Chat";
 import welcome from "./welcome.png";
-import SearchPage from "./components/searchPage";
+import SearchPage from "./screens/searchPage";
 function App() {
   const [user] = useAuthState(auth);
 
@@ -50,7 +50,7 @@ function App() {
                       </span>
                       😃
                     </h1>
-                    <h4>Create Chennals, Explore & Enjoy...</h4>
+                    <h4>Create Chennals, Explore & Enjoy!</h4>
                     <img src={welcome} alt="welcomePic" />
                   </div>
                 </Route>

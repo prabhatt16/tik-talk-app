@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
-import { db } from "./firebase";
-import "./Chat.css";
+import { db } from "../firebase";
+import "../screens/Chat.css";
 import { useParams } from "react-router-dom";
 import { AiOutlineStar, AiOutlineInfoCircle } from "react-icons/ai";
-import ImageMessage from "./ImageMessage";
-import MessageField from "./MessageField";
-import ChatInput from "./ChatInput";
+import ImageMessage from "../components/ImageMessage";
+import MessageField from "../components/MessageField";
+import ChatInput from "../components/ChatInput";
 
 function SearchPage() {
   const { searchId } = useParams();

@@ -1,9 +1,8 @@
 import { Button, makeStyles, Modal } from "@material-ui/core";
 import React, { useState } from "react";
-
-import { auth, db, storage } from "./firebase";
+import { auth, db, storage } from "../firebase";
 import { BiImage, BiSend } from "react-icons/bi";
-import "./ChatInput.css";
+import "../components/ChatInput.css";
 import { useAuthState } from "react-firebase-hooks/auth";
 import firebase from "firebase/app";
 

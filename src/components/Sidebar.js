@@ -7,9 +7,9 @@ import { HiOutlineSave } from "react-icons/hi";
 import { BsFiles } from "react-icons/bs";
 import { RiAppsLine } from "react-icons/ri";
 import { BiSitemap } from "react-icons/bi";
-import "./Sidebar.css";
+import "../components/Sidebar.css";
 import SidebarOption from "./SidebarOption";
-import { auth, db } from "./firebase";
+import { auth, db } from "../firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
 
 function Sidebar() {

@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { db } from "../firebase";
-import "./Chat.css";
+import "../screens/Chat.css";
 import { useParams } from "react-router-dom";
 import { AiOutlineStar, AiOutlineInfoCircle } from "react-icons/ai";
-import ImageMessage from "./ImageMessage";
+import ImageMessage from "../components/ImageMessage";
 import MessageField from "../components/MessageField";
 import ChatInput from "../components/ChatInput";
 

@@ -1,13 +1,13 @@
 import firebase from "firebase";
 
 const firebaseApp = firebase.initializeApp({
-  apiKey: "AIzaSyCKg6Oh3qChkAFsU6uvz79Z0Nfh37QUnEI",
-  authDomain: "slack-clone-app-17214.firebaseapp.com",
-  projectId: "slack-clone-app-17214",
-  storageBucket: "slack-clone-app-17214.appspot.com",
-  messagingSenderId: "919596434489",
-  appId: "1:919596434489:web:b074b5a959aae834c8f9e8",
-  measurementId: "G-6T5134YR7R",
+  apiKey: "AIzaSyBs__W6wwPEGm7YAcjEpQxQSmIyNkdv0DE",
+  authDomain: "tik-talk-app-18bd8.firebaseapp.com",
+  projectId: "tik-talk-app-18bd8",
+  storageBucket: "tik-talk-app-18bd8.appspot.com",
+  messagingSenderId: "444960713218",
+  appId: "1:444960713218:web:5cfd6f8839c8ffee57951b",
+  measurementId: "G-9CZD0B2Q2K"
 });
 
 export const db = firebaseApp.firestore();

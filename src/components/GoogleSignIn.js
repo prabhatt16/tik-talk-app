@@ -1,8 +1,8 @@
 import React from "react";
-import "./GoogleSignIn.css";
+import "../components/GoogleSignIn.css";
 import Button from "@material-ui/core/Button";
-import LogInImage from "./main.png";
-import { auth, provider } from "./firebase";
+import LogInImage from "../main.png";
+import { auth, provider } from "../firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
 
 function GoogleSignIn() {
@@ -27,9 +27,9 @@ function GoogleSignIn() {
           Hey there,
           <br />
           Welcome to
-          <span style={{ color: "blueviolet" }}> Slack</span>
+          <span style={{ color: "blueviolet" }}> TicTalk</span>
         </h1>
-        <h3>Get started with slack 😃</h3>
+        <h3>Get started with Tic-Talk 😃</h3>
         <Button
           color="primary"
           variant="contained"

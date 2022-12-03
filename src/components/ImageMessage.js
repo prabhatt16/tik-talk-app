@@ -1,5 +1,5 @@
 import React from "react";
-import "./ImageMessage.css";
+import "../components/ImageMessage.css";
 import { FcLike } from "react-icons/fc";
 
 function ImageMessage({ user, userImage, imagePost, timestamp }) {

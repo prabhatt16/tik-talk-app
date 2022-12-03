@@ -1,0 +1,71 @@
+[debug] [2022-10-11T06:28:33.280Z] ----------------------------------------------------------------------
+[debug] [2022-10-11T06:28:33.284Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\prabh\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-10-11T06:28:33.285Z] CLI Version:   10.0.1
+[debug] [2022-10-11T06:28:33.286Z] Platform:      win32
+[debug] [2022-10-11T06:28:33.286Z] Node Version:  v14.15.4
+[debug] [2022-10-11T06:28:33.288Z] Time:          Tue Oct 11 2022 11:58:33 GMT+0530 (India Standard Time)
+[debug] [2022-10-11T06:28:33.288Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-10-11T06:28:33.363Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-10-11T06:28:33.560Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-10-11T06:28:33.560Z] > authorizing via signed-in user (prabhattiwari20041@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\prabh\OneDrive\Desktop\ReactJS\slack-clone
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[debug] [2022-10-11T06:28:34.722Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-10-11T06:28:34.722Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2022-11-27T16:42:49.298Z] ----------------------------------------------------------------------
+[debug] [2022-11-27T16:42:49.302Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\prabh\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-11-27T16:42:49.303Z] CLI Version:   11.15.0
+[debug] [2022-11-27T16:42:49.303Z] Platform:      win32
+[debug] [2022-11-27T16:42:49.303Z] Node Version:  v16.4.0
+[debug] [2022-11-27T16:42:49.305Z] Time:          Sun Nov 27 2022 22:12:49 GMT+0530 (India Standard Time)
+[debug] [2022-11-27T16:42:49.306Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-27T16:42:49.424Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-27T16:42:49.425Z] > authorizing via signed-in user (prabhattiwari20041@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\prabh\OneDrive\Desktop\ReactJS\slack-clone
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-11-27T16:43:29.874Z] Using project from CLI flag: slack-clone-app-17214
+[debug] [2022-11-27T16:43:29.879Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/slack-clone-app-17214 [none]
+[debug] [2022-11-27T16:43:30.616Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/slack-clone-app-17214 403
+[debug] [2022-11-27T16:43:30.617Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/slack-clone-app-17214 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-11-27T16:43:30.618Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-11-27T16:43:30.874Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\prabh\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\prabh\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project slack-clone-app-17214. Please make sure the project exists and your account has permission to access it.

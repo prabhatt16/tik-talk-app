@@ -1,5 +1,5 @@
 import React from 'react';
-import './MessageField.css';
+import '../components/MessageField.css';
 function MessageField({user,userImage,message,timestamp}) {
     return (
         <div className="messageText">
